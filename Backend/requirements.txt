@@ -1,0 +1,17 @@
+# Python 3.12 required — TensorFlow does not support 3.13+ reliably or 3.14 at all
+
+# --- model / preprocessing (MUST match the versions used to save the .pkl files) ---
+tensorflow==2.19.0
+scikit-learn==1.6.1
+joblib==1.4.2
+
+# --- data ---
+pandas==2.2.3
+numpy==2.0.2
+
+# --- API ---
+flask==3.1.0
+flask-cors==5.0.0
+
+# --- production server (Windows) ---
+waitress==3.0.2
